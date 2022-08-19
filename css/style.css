@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/back.jpg");
+  background-size: cover;
+}
+
+.lenta {
+  margin-left: 100px;
+  width: 200px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+}
+
+.button {
+  text-decoration: none;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 8px;
+  display: block;
+  background-color: white;
+  margin-top: 2px;
+  color: black;
+  font-size: 20px;
+  transition: 100ms;
+}
+
+.button:hover {
+  background-color: rgb(211, 209, 209);
+}
+
+.lenta {
+  padding-top: 100px;
+}
+
+.galary {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  margin: auto;
+  margin-top: 40px;
+  background-color: rgb(223, 219, 219);
+  left: 500px;
+  top: 40px;
+}
+
+img {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.q {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.w {
+  position: absolute;
+  left: 175px;
+  bottom: 10px;
+}
+
+.e {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.r {
+  position: absolute;
+  left: 10px;
+  bottom: 175px;
+}
+
+.t {
+  position: absolute;
+  left: 175px;
+  bottom: 175px;
+}
+
+.y {
+  position: absolute;
+  right: 10px;
+  bottom: 175px;
+}
+
+.u {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.i {
+  position: absolute;
+  left: 175px;
+  top: 10px;
+}
+
+.o {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
